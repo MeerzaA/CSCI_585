@@ -17,6 +17,7 @@ In a single word, this course is about - data :) Another single word: 'fun'!!
 |1|[Homework 1](https://github.com/MeerzaA/CSCI_585/tree/main/Homeworks/Assignment_1)|[PDF](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_1/Fall_2023_HW1.jpeg) |6/6|
 |2|[Homework 2](https://github.com/MeerzaA/CSCI_585/tree/main/Homeworks/Assignment_2)|[PDF](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_2/CSCI_585_Fall_2023_HW2.jpeg) |3.9/6|
 
+#### Exams
 |No.|    Name    |PDF file|Score|
 |---|------------|--------|-----|
 |1|[Midterm](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/Midterm_Fall_2023) ||0/0|
