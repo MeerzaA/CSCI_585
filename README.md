@@ -21,24 +21,6 @@ In a single word, this course is about - data :) Another single word: 'fun'!!
 |---|------------|--------|-----|
 |1|[Midterm](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/Midterm_Fall_2023) ||0/0|
 
-- Week Quick Links
-  * [Wee 1 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_1)
-  * [Wee 2 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_2)
-  * [Wee 3 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_3)
-  * [Wee 4 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_4)
-  * [Wee 5 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_5)
-  * [Wee 6 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_6)
-  * [Wee 7 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_7)
-  * [Wee 8 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_8)
-  * [Wee 9 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_9)
-  * [Wee 10 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_10)
-  * [Wee 11 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_11)
-  * [Wee 12 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_12)
-  * [Wee 13 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_13)
-  * [Wee 14 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_12)
-  * [Wee 15 ](https://github.com/MeerzaA/CSCI_585/tree/main/Lectures/Week_13)
-
-
 
 
 
