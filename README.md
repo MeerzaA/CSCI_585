@@ -8,4 +8,10 @@
   The course is intended to provide a basic understanding of the issues and problems involved in database systems, knowledge of currently practical techniques for satisfying the needs of such a system, and an indication of the current research approaches that are likely to provide a basis for tomorrow's solutions.
 In a single word, this course is about - data :) Another single word: 'fun'!!
 
-  -Dr. Saty Raghavachary
+  - Dr. Saty Raghavachary
+
+#### Homework
+
+|No.|    Name    |PDF file|Score|
+|---|------------|--------|----|
+|1|[Homework 1](https://github.com/MeerzaA/CSCI_585/tree/main/Homeworks/Assignment_1)|[PDF](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_1/Fall_2023_HW1.jpeg) |100/100|
