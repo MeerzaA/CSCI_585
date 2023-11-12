@@ -1,4 +1,4 @@
-## USC CSCI 585 Fall 2023 (Database Systems) Respority
+## USC CSCI 585 Fall 2023 (Database Systems)
 
 #### Description
   This course covers the essential concepts, principles, techniques, and mechanisms for the design, analysis, use, and implementation of computerized database systems. Key information management concepts and techniques are examined: information modeling and representation; information interfaces - access, query, and manipulation, implementation structures, and issues of distribution.
