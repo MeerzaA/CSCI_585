@@ -1,0 +1,107 @@
+<!-- for fun, run this too:
+https://bytes.usc.edu/~saty/tools/xem/run.html?x=j-leaflet
+
+It uses a map 'web component' [web components are reusable pieces of HTML+CSS+JS].
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>OL</title>
+<script src="https://openlayers.org/api/OpenLayers.js">
+</script>
+<style>
+#map {
+    width:1000;
+    height:1000px;
+}
+</style>
+</head>
+
+<body>
+<div id="map"></div>
+
+
+<script>
+// your JS code 
+//console.log("Hola, all!");
+//alert("Hello JS World!");
+
+// my data is a label/ID for what we store, which is the object stored in variable d, 
+// whose value is {"k1":[{"a":5, "b":-6}]}, which consists of a key called k1 
+// with an array as its value: [{"a":5, "b":-6}]
+var Thirteen_loc = [
+{x:34.02170952302041,  y:-118.283037556786},   // somewhere in SoCal...
+{x:34.02019444155535,  y:-118.28391927104609}, // somewhere in SoCal...
+{x:34.02116332869112,  y:-118.28393627323776}, // somewhere in SoCal...
+{x:34.02017974729415,  y:-118.28649452235086}, // somewhere in SoCal...
+{x:34.02124148902352,  y:-118.28255425275812}, // somewhere in SoCal...
+{x:34.025323652233986, y:-118.2852586463928},  // somewhere in SoCal...
+{x:34.0213722895555,   y:-118.28271729811718}, // somewhere in SoCal...
+{x:34.02022365811775,  y:-118.28528921270804}, // somewhere in SoCal...
+{x:34.020536401868405, y:-118.2890852339821},  // somewhere in SoCal...
+{x:34.020593745825586, y:-118.2894955161794},  // somewhere in SoCal...
+{x:34.02200052375641,  y:-118.28610194947993}, // somewhere in SoCal...
+{x:34.018679003153615, y:-118.2855324576769},  // somewhere in SoCal...
+{x:34.06027500870841,  y:-118.28111600504101} // somewhere in SoCal...
+];
+
+localStorage.setItem("myData",JSON.stringify(Thirteen_loc));
+// you'd need to modify the above, to store all your points
+
+
+//next [presumably after closing the browser, and reloading our html]
+// we can fetch the stored data, just by supplying its key:
+var dataStored = JSON.parse(localStorage.getItem("myData"));
+// verify that we fetched our data correctly
+console.log(dataStored); 
+// we can iterate through our array [of points], like so:
+var a = dataStored.k1; // a will contain our array
+for(var indx in a) { // indx is 0,1,2...
+  console.log(a[indx]); // this could be a single point
+}
+
+// here's how to plot points on a map, using OpenLayers:
+// [this is code I mildly modified, from an existing source]
+function initMap() {
+        map = new OpenLayers.Map('map');
+        basemap = new OpenLayers.Layer.OSM("Simple OSM Map");
+        map.addLayer(basemap);
+        markers = new OpenLayers.Layer.Markers("Markers");
+        map.addLayer(markers);
+}// initMap()
+
+function addMarker(latitude, longitude) {
+        var lonLat = new OpenLayers.LonLat(longitude, latitude)
+            .transform(
+                new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+                map.getProjectionObject() // to Spherical Mercator Projection
+        );
+        var point = new OpenLayers.Marker(lonLat);
+        markers.addMarker(point);
+        map.setCenter(lonLat,18); // second arg is zoom level
+        //console.log(latitude + ", " + longitude);
+}// addMarker()
+
+
+// load and setup map layers
+initMap();
+
+// Loop to place all 13 locations on the map
+for(var i = 0; i < Thirteen_loc.length; i++) {
+    addMarker(Thirteen_loc[i].x,Thirteen_loc[i].y);         
+}
+
+</script>
+
+
+</body>
+
+</html>
+
+<!--
+https://www.google.com/maps/search/usc/@34.0205363,-118.2855507,36m/data=!3m1!1e3
+-->
+

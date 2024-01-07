@@ -1,0 +1,69 @@
+CSCI585 FINAL V1 Pratice 
+
+---------------------------------------------------------------------------------------------------
+
+1a: Vectors embeddings are essentially dimesnional spaces where vectors are mapped (vectors being anything from words,sentances,pics,and audio) with similar ones being clustered closer together. In a sense spatial data is also a searies of points mapped in a dimensional spaces, and its the corraltion between these dimensional points that we use to gain insights, and yes this is also how we dephrive understanding from vertor data. 
+
+1b: Maybe use spatial data in connection with GenAI model on google maps where we generate home addresses of people in their mid 20s making 50k a year, who like to watch game of thrones, and have no kids. What I am baiscully saying is that the spatial data is the home addresess where they live, and based on where they live we can use vector data to gain insights on why these people who have these things in common, chose to live where they live.  
+
+---------------------------------------------------------------------------------------------------
+
+2a:
+
+2b: Single variable (piechart,bubble-plots), Multivariate data, spatial data (crime map with age), spatio-temporal data(storm movement), interactivity (crime map where you pick the crime). animation (an animaton of population gwroth in a bar chart), real-time, networks - node attrs, network - edges, 
+
+---------------------------------------------------------------------------------------------------
+
+3: A data pipline is the process of which unorganized data is taken from a source and it is processed so that it can be moved to a place where its needed. Water is taken from a lake it is processed at water plant so that it may be piped into my sink as safe drinking water. 
+
+Visual Dataflow graphs are meant to show the movement of data in a complex system from its entery point to its relevent tables, where it is stored, retrived, organized... etc. In a dataflow graph for facebook we would be able to visually see the user's profile get created with a unique ID, name, age, phone number, email, gender and much more. Than we would see that profile data moved to relvent part of facebook maybe to the ads channel, to its content moderation channels, to interal company reports, and so on. 
+
+The connection between visual dataflow and data piplines probably sits in data visulization or maybe even LLMs. A LLM takes a bunch of unorganized data for maybe drug overdoces, and runs maybe a un-supervised data mining alogrithm and generates a node map (or some other data visuilaztion) of overdoces, with leathel/non-leathel cases, age, type of drug, and other such things.   
+
+---------------------------------------------------------------------------------------------------
+
+4: GraphQL is a query lanuagh, we can use it to pull data from APIs. The pulled data is structurally similar to json, in that it has a type system thjat is lables which can be looked at as colums in a json file and than data linked to the lables which can be looked at the content or the row data in a json file. I mean this is spicfic but both do use a higherical structure by embedding [] in other {}. [car{models:honda}] this is a very basic exmple but strucurally it makes sencse in both GrpahQL and json. You emmbed a key-value in an object. 
+---------------------------------------------------------------------------------------------------
+
+5: "Customers": [
+                {
+                    "AccountID": -1,
+                    "AccountBalance": "sid",
+                    "dataTypeName": "meta_data",
+                    "Country": [
+                        "US"
+                    ]
+}]
+---------------------------------------------------------------------------------------------------
+
+6a: Unsupervised learning in AI is literally what the names implies, we feed a large ML model a bunch of raw, unlabeled data and let it analyze the data without human intervension. Baisclly, its up to the model to figure out patterns, and draw wisdom from the data. 
+
+6b:k-means clustering algorithem; the algorithem finds finds a 'k' number of clusters from the input using some measure of closeness.
+
+6c: I mean a number of things could be "the" reason for unsupervised ML models becoming popular. I would assume that the rise of LLMs where we need to make sense of "bigData" sets very quickly and things like labeling and catagorizing can be difficult for these data sets so unsupervised ML would naturally gain popularity. So in conclusion the trend in AI towards LLMs and the need to organize big data has put a spotlight on unspuervised ML. 
+ 
+6d: In unsupervised algorithms/architecture the data is usually "clustered" this means that the algo/archi is looking for points in the data that are simimlar to each other and they get grouped together. 
+
+---------------------------------------------------------------------------------------------------
+
+7a: I believe the professor mentioned that all databases are either a SQL DBs or NoSQL DBs. But there are many other ways to catagorize databases. They can be centeralized or distributed, they can also be single user or multi-user. We can also discrbe them as either being relational or non-relational databases. 
+
+7b: GenAI looks to add Vector databaes to the usual list. 
+
+7c: Vector databases are different than SQL or NoSQL databases in that they plot points in a 3D plain while clustering similar objects together. They arent macthed and labeled in the same way SQL databases would with primary keys and relations, also they can map many types of data since images, audio, sentances,...etc can all be reduced to vectors. These are usually refered to as embeddings and usually algorithems such as a viration of nearest nieghbor are used to retrive data which is different than how you would use SQL ro retrive data  through a table of rows and colums. 
+
+---------------------------------------------------------------------------------------------------
+
+8:
+
+1 - Targeted Survellance: The law bans any mass use of facial scraping software 
+
+2 - Targeted Harassment: Targeted vulnerabilites are banned such as disable people or elderly
+
+3 - Digital Inpersonations: Tha law says we have to label anything is AI generated 
+
+4 - Influence Campaign: Any kind of behavior minipulation is banned 
+
+5 - Synthetic Identities: Tha law says we have to label anything is AI generated 
+
+---------------------------------------------------------------------------------------------------

@@ -1,0 +1,11 @@
+The textbook for this class is :
+
+Database Systems: Design, Implementation, & Management 12th Edition
+by: Carlos Coronel & Steven Morris. 
+
+ISBN-10: 1305866797
+ISBN-13: 978-1305866799
+
+Buy @--> https://www.amazon.com/Database-Systems-Implementation-Management-Loose-Leaf/dp/1305866797
+	 http://www.cherrycreekeducation.com/bbk/b/Cengage_Learning_Database_Systems_12th_Edition_1305627482.pdf
+	 https://www.cengage.com/c/database-systems-design-44-implementation-44-management-44-12th-edition-12e-coronel-morris/9781305627482/

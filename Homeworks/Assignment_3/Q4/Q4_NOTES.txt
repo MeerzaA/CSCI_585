@@ -1,0 +1,4 @@
+
+There is nothing in this folder because step 4 of the HW invloved installing software and nothing else.
+
+Prof's walkthrough: https://bytes.usc.edu/cs585/f23-Da-taaa/hw/HW3/clips/queries.mp4

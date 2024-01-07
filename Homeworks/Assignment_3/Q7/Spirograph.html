@@ -1,0 +1,95 @@
+<!-- for fun, run this too:
+https://bytes.usc.edu/~saty/tools/xem/run.html?x=j-leaflet
+
+It uses a map 'web component' [web components are reusable pieces of HTML+CSS+JS].
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Spirograph</title>
+        <script src="https://openlayers.org/api/OpenLayers.js"> </script>
+        <style>
+#map {
+    width:400px;
+    height:400px;
+}
+</style>
+    </head>
+
+    <body>
+        <div id="map"></div>
+
+        <script>
+// your JS code 
+//console.log("Hola, all!");
+//alert("Hello JS World!");
+
+// my data is a label/ID for what we store, which is the object stored in variable d, 
+// whose value is {"k1":[{"a":5, "b":-6}]}, which consists of a key called k1 
+// with an array as its value: [{"a":5, "b":-6}]
+var Tommy_t = [{x:34.020528,y:-118.285432}];
+localStorage.setItem("myData",JSON.stringify(Tommy_t));
+// you'd need to modify the above, to store all your points
+
+
+//next [presumably after closing the browser, and reloading our html]
+// we can fetch the stored data, just by supplying its key:
+var dataStored = JSON.parse(localStorage.getItem("myData"));
+// verify that we fetched our data correctly
+console.log(dataStored); 
+// we can iterate through our array [of points], like so:
+var a = dataStored.k1; // a will contain our array
+for(var indx in a) { // indx is 0,1,2...
+  console.log(a[indx]); // this could be a single point
+}
+
+// here's how to plot points on a map, using OpenLayers:
+// [this is code I mildly modified, from an existing source]
+function initMap() {
+        map = new OpenLayers.Map('map');
+        basemap = new OpenLayers.Layer.OSM("Simple OSM Map");
+        map.addLayer(basemap);
+        markers = new OpenLayers.Layer.Markers("Markers");
+        map.addLayer(markers);
+}// initMap()
+
+function addMarker(latitude, longitude) {
+        var lonLat = new OpenLayers.LonLat(longitude, latitude)
+            .transform(
+                new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+                map.getProjectionObject() // to Spherical Mercator Projection
+        );
+        var point = new OpenLayers.Marker(lonLat);
+        markers.addMarker(point);
+        map.setCenter(lonLat,18); // second arg is zoom level
+        //console.log(latitude + ", " + longitude);
+}// addMarker()
+
+
+// load and setup map layers
+initMap();
+
+// here's how to plot just ONE [lat,long] on the map! 
+          
+var R=36, r=9, a=30 
+
+var cos=Math.cos, sin=Math.sin, pi=Math.PI, nRev=8;
+for(var t=0.0; t<(pi*nRev); t+=0.1){
+     var x = (R+r)*cos((r/R)*t) - a*cos((1+r/R)*t);
+     var y = (R+r)*sin((r/R)*t) - a*sin((1+r/R)*t);
+     addMarker(Tommy_t[0].x + (x / 20000),Tommy_t[0].y + (y / 20000));
+}
+
+
+</script>
+
+    </body>
+
+</html>
+
+<!--
+https://www.google.com/maps/search/usc/@34.0205363,-118.2855507,36m/data=!3m1!1e3
+-->

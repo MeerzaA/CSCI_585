@@ -1,0 +1,34 @@
+
+This assigment has a lot of different things that need to be done. 
+
+I am assuming that I will need to take notes while I work on this so I am making this txt file in advance 
+
+
+HW3 Task: First I wanted to rewrite the prompt in my own words so that I can follow the assignment better. 
+
+1: Get long/lat data for 12 locations on USC campus + the long/lat data for where you live. The 12 locations should include 3 libraries, 3 restaurant/cafes, 3 water works, and 3 department buildings. We can use a google dev webpage that produces these coordinates by physically going to each location. This is also important because we have to take a selfie or some proof that we were there. Write the name along with the corrdinates of every location you visit. 
+
+2: Once you have your 13 locations along with their coordinates you have to generate a .kml file with the data you collected. The .kml will be your starting point for doing data visualizations and queries. Note that labels must be kept with in 15 characters or less. Also note that the .kml files take in (long,lat) for mat not (lat,long). Once you have a;; 13 locations in one .kml file you. Finnally, place your 12 coordinates as .kml files from USC's campus into 4 folders labeled: 'libraries', 'eateries', 'waterworks' and 'department buildings'. This doesn't include home.
+
+3: Just download google earth for Windows or Mac and load the .kml into it and take a screenshot of the 12 campus locations and home. 
+
+4: Install either Oracle & Oracle Spatial, or Postgres & PostGIS to create database, tables, and insert data so that you may run queries on spatial data. 
+
+5: Creat a db in the database you chose to use and set it up to query data using your 13 location .kml file. 
+      • The first quesry invloves computing the "Covex hull" using the 13 points from the .kml file. We have to load up PostGres and make sure to create the 	POSTGIS extension with 'CREATE EXTENSION POSTGIS;'. Once we have POSTGIS running we are able to run the ST_ConvexHull function on geomerty points such as 	(long,lat). There many ways to 	do this, we can create a table and run the query on the table or we can hardcode the points in a query without the need 	for a table and get the	Convexhull that way. Doing 'SELECT ST_AsText(ST_ConvexHull(ST_GeomFromText('MULTIPoint(long1 lat1, long2 lat2,...etc)')));' is 	the easiest way and its allowed for this part. Once that is done we need to edit the .kml with the 13 locations and creat a polygon using xml code.   
+
+6: Use the OpenLayer (JavaAPI) to visualize your 13 points. The main idea is to pin the 13 points into the web browser cach in your machine. We can do this by lossly editing the professors HTML code. If you are not able to do this on your machine you can use a online IDE for javascript like CodePen [https://codepen.io/] or jsfiddle [https://jsfiddle.net/], and submittig your code via URL. For this I just need to hardcode my points into a array and run a functuin to pin the points in a map and also saving these points in your computes cach. 
+
+7: We need to make a spirograph using Tommy Trojan as the center. Once we have a KML file with tommy trojans location and our spirograph points we need to convert this into a ESRI shapfile, and use the to visualize the shapfile with the ArcGIS tools online. For the spirograph algorithms the parameters are already difined, so we need to use those to make sure our spiro looks like the professors with 4 total loops.  
+
+For the Spirograph curve point creation, use the following parametric equations (with R=36, r=9, a=30):
+[x(t) = (R+r)*cos((r/R)*t) - a*cos((1+r/R)*t)]
+[y(t) = (R+r)*sin((r/R)*t) - a*sin((1+r/R)*t)]
+
+Submission Requirments: 
+* 13 selfies, from step 1 above [if you don't submit these, you will LOSE 2 points!]
+* your .kml file from step 5 above - with the placemarks, convex hull and nearest-neighbor line segments (1 point)
+* a text file (.txt or .sql) with your two queries from step 5 - table creation commands (if you use Postgres and directly specify points in your queries, you won't have table creation commands, in which case you wouldn't need to worry about this part), and the queries themselves (2 points)
+* screengrabs from steps 3,5 (1 point)
+* a .html file (with the OpenLayers code) from step 6, or a CodePen/jsfiddle link (1 point)
+* your Spirograph point generation code, the resulting .kml file ("spiro.kml"), shapefile (this needs to be a .zip) and a screenshot (1 point)

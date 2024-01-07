@@ -1,3 +1,6 @@
+MEERZA AHMED CSCI 585 HW1 | README- 09/17/2023
+
+
 RELATIONSHIPS 
 
 EMPLOYEE : REGISTRATION_SYSTEM (1:M) - Employees can register in the system 1 time but the registration system can have many employees registar  
