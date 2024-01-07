@@ -15,10 +15,10 @@ In a single word, this course is about - data :) Another single word: 'fun'!!
 
 |No.|    Name    |HW Page|Score|
 |---|------------|--------|-----|
-|1|[HW1](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_01/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_01/CSCI585_Fall23_HW1.jpeg) |6/6|
-|2|[HW2](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/CSCI585_Fall23_HW2.jpeg) |3.9/6|
-|3|[HW3](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/CSCI585_Fall23_HW3.jpeg) |6/6|
-|4|[HW4](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_04/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_04/CSCI585_Fall23_HW4_ML.jpeg) |6/6|
+|1|[HW1](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_01/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_01/CSCI585_Fall23_HW1.jpeg) |6 / 6|
+|2|[HW2](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/CSCI585_Fall23_HW2.jpeg) |3.9 / 6|
+|3|[HW3](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/CSCI585_Fall23_HW3.jpeg) |6 / 6|
+|4|[HW4](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_04/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_04/CSCI585_Fall23_HW4_ML.jpeg) |6 / 6|
 
 
 
