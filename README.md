@@ -24,20 +24,7 @@ In a single word, this course is about - data :) Another single word: 'fun'!!
 
 #### Exam
 
-|No.|    Name    |PDF file|Score|
+|No.|    Name    |Review|Score|
 |---|------------|--------|---|
-|1|[MidTerm](https://github.com/AaronYang2333/CSCI_570/blob/master/exam1/Exam_1_Rubrics.pdf)|[Practice Material](https://github.com/AaronYang2333/CSCI_570/blob/master/exam1/Practice_Exam.pdf) |62/85|
-|2|[Final](https://github.com/AaronYang2333/CSCI_570/blob/master/exam2/Exam2_Rubrics.pdf)|[Practice Material](https://github.com/AaronYang2333/CSCI_570/blob/master/exam2/Practice_Exam.pdf) |85/100|
-
-
-
-
-
-
-
-
-
-
-
-
-
+|1|[MidTerm](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Midterm_Fall_2023)|[Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Midterm_Fall_2023/CSCI585_Midterm_Review.pdf) |22 / 35|
+|2|[Final](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Final_Fall_2023)|[Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Final_Fall_2023/CSCI585_Final_Review.pdf) |32.25 / 35|
