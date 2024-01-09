@@ -13,18 +13,18 @@ In a single word, this course is about - data :) Another single word: 'fun'!!
 
   #### Homework
 
-|No.| Name | HW Page | Tags | Score | 
+| No. | Name | HW Page | Tags | Score | 
 |:---:|:---:|:------:|------|:------:|
 |1| [HW1](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_01/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_01/CSCI585_Fall23_HW1.jpeg) |`Database Management` `DBMS` `ER Diagrams` `EER Diagrams` `Entity`|6 / 6|
 |2| [HW2](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/CSCI585_Fall23_HW2.jpeg) |`Structured Query Language ` `SQL` `Subqueries` `Oracle` `Sequences`|3.9 / 6|
 |3| [HW3](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/CSCI585_Fall23_HW3.jpeg) |`Geospatial Data` `Spirograph` `Convex hull` `GIS` `Google KML` `ArcGIS`|6 / 6|
-|4| [HW4](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_04/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_04/CSCI585_Fall23_HW4_ML.jpeg) | `Machine Learning` `Sigmoid Activation` `Neural Network` `ML Algorithm`|6 / 6|
+|4| [HW4](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_04/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_04/CSCI585_Fall23_HW4_ML.jpeg) |`Machine Learning` `Sigmoid Activation` `Neural Network` `ML Algorithm`|6 / 6|
 
 
 
 #### Exam
 
-|No.|    Name    | Review | Tags | Score |
-|---|------------|--------|------|-------|
-|1| [MidTerm](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Midterm_Fall_2023) | [Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Midterm_Fall_2023/CSCI585_Midterm_Review.pdf) | `Runtime Complexity` `BFS` `DDFS` `Induction Proof` `Graph` `Divide-and-Conquer ` `Dynamic Programming` `Master Theorem` | 22 / 35 |
-|2| [Final](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Final_Fall_2023) | [Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Final_Fall_2023/CSCI585_Final_Review.pdf) | `Machine Lear Complexity` `BFS` `DDFS` `Induction Proof` `Graph` `Divide-and-Conquer ` `Dynamic Programming` `Master Theorem`| 32.25 / 35 |
+| No. | Name | Review | Tags | Score |
+|:---:|:---:|:------:|------|:------:|
+|1| [MidTerm](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Midterm_Fall_2023) | [Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Midterm_Fall_2023/CSCI585_Midterm_Review.pdf) |`Data Modeling` `ER/EER Diagrams` `SQL` `Normalization` `Performance Tuning`| 22 / 35 |
+|2| [Final](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Final_Fall_2023) | [Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Final_Fall_2023/CSCI585_Final_Review.pdf) |`Machine Learning` `Sigmoid Activation` `Neural Network` `ML Algorithm`| 32.25 / 35 |
