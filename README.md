@@ -27,4 +27,4 @@ In a single word, this course is about - data :) Another single word: 'fun'!!
 | No. | Name | Review | Tags | Score |
 |:---:|:---:|:------:|------|:------:|
 |1| [MidTerm](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Midterm_Fall_2023) | [Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Midterm_Fall_2023/CSCI585_Midterm_Review.pdf) |`SQL` `Normalization` `Performance Tuning` `DB Connectivity` `ERD`| 22 / 35 |
-|2| [Final](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Final_Fall_2023) | [Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Final_Fall_2023/CSCI585_Final_Review.pdf) |`Data Mining` `NoSQL` `BI` `MapReduce` `ML` `Spatial DBs` `Data Viz` `Json`| 32.25 / 35 |
+|2| [Final](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Final_Fall_2023) | [Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Final_Fall_2023/CSCI585_Final_Review.pdf) |`NoSQL` `BI` `MapReduce` `DM / ML` `Spatial DBs` `Data Viz` `Json`| 32.25 / 35 |
