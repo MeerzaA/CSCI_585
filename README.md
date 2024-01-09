@@ -16,8 +16,8 @@ In a single word, this course is about - data :) Another single word: 'fun'!!
 |No.| Name | HW Page | Tags | Score | 
 |:---:|:---:|:------:|------|:------:|
 |1| [HW1](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_01/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_01/CSCI585_Fall23_HW1.jpeg) |`Database Management` `DBMS` `ER Diagrams` `EER Diagrams` `Entity Framework`|6 / 6|
-|2| [HW2](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/CSCI585_Fall23_HW2.jpeg) |`Structured Query Language ` `SQL` `Subqueries` `Joins` `Oracle` `Sequences`|3.9 / 6|
-|3| [HW3](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/CSCI585_Fall23_HW3.jpeg) |`Geospatial Data` `Spirograph` `Convex hull` `PostGIS` `Google KML` `ArcGIS`|6 / 6|
+|2| [HW2](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/CSCI585_Fall23_HW2.jpeg) |`Structured Query Language ` `SQL` `Subqueries` `Oracle` `Sequences`|3.9 / 6|
+|3| [HW3](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/CSCI585_Fall23_HW3.jpeg) |`Geospatial Data` `Spirograph` `Convex hull` `GIS` `Google KML` `ArcGIS`|6 / 6|
 |4| [HW4](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_04/) | [Link](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_04/CSCI585_Fall23_HW4_ML.jpeg) | `Machine Learning` `Sigmoid Activation` `Neural Network` `ML Algorithm` `XOR`|6 / 6|
 
 
