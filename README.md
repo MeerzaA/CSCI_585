@@ -14,7 +14,7 @@ In a single word, this course is about - data :) Another single word: 'fun'!!
   #### Homework
 
 |No.|    Name    | HW Page | Tags | Score |
-|---|------------|-----------|----|--------|
+|---|------------|-----------|----|-------------|
 |1|[HW1](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_01/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_01/CSCI585_Fall23_HW1.jpeg) | `Database Management` `DBMS` `ER Diagrams` `EER Diagrams` `Database Design` `Relational Modeling` |6 / 6|
 |2|[HW2](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_02/CSCI585_Fall23_HW2.jpeg) | `Runtime Complexity` `BFS` `DDFS` `Induction Proof` `Graph` `Divide-and-Conquer ` `Dynamic Programming` `Master Theorem`|3.9 / 6|
 |3|[HW3](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/)|[HW Page](https://github.com/MeerzaA/CSCI_585/blob/main/Homeworks/Assignment_03/CSCI585_Fall23_HW3.jpeg) | `Runtime Complexity` `BFS` `DDFS` `Induction Proof` `Graph` `Divide-and-Conquer ` `Dynamic Programming` `Master Theorem`|6 / 6|
