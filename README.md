@@ -26,5 +26,5 @@ In a single word, this course is about - data :) Another single word: 'fun'!!
 
 | No. | Name | Review | Tags | Score |
 |:---:|:---:|:------:|------|:------:|
-|1| [MidTerm](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Midterm_Fall_2023) | [Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Midterm_Fall_2023/CSCI585_Midterm_Review.pdf) |`Data Modeling` `ER/EER Diagrams` `SQL` `Normalization` `Performance Tuning`| 22 / 35 |
+|1| [MidTerm](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Midterm_Fall_2023) | [Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Midterm_Fall_2023/CSCI585_Midterm_Review.pdf) |`SQL` `Normalization` `Performance Tuning` `BI` `DB Connectivity`| 22 / 35 |
 |2| [Final](https://github.com/MeerzaA/CSCI_585/tree/main/Exams/CSCI585_Final_Fall_2023) | [Review](https://github.com/MeerzaA/CSCI_585/blob/main/Exams/CSCI585_Final_Fall_2023/CSCI585_Final_Review.pdf) |`Machine Learning` `Sigmoid Activation` `Neural Network` `ML Algorithm`| 32.25 / 35 |
