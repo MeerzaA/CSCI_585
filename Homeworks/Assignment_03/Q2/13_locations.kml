@@ -109,7 +109,7 @@
       <styleUrl>#z1</styleUrl>
       <description>Home: Los Angeles, California</description>
       <Point>
-        <coordinates>-118.28111600504101,34.06027500870841</coordinates>
+        <coordinates>-</coordinates>
       </Point>
     </Placemark>
   </Document>
